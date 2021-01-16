@@ -19,7 +19,13 @@ class d1:
             if(tempCount > shumaMajtas):
                 shumaMajtas = tempCount
                 
-        
+        tempCount = 0
+        shumaDjathtas = -100000000
+        for i in range(_middle+1,_to+1):
+            tempCount = tempCount + self.array[i]
+            if tempCount > shumaDjathtas:
+                shumaDjathtas = tempCount
+        return shumaMajtas+shumaDjathtas
 
 vargu = [-1, -4, 7, -3, -2, 1, 3, -8]
 obj = d1(vargu)
