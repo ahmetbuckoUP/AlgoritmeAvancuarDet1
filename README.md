@@ -1,0 +1,1 @@
+# AlgoritmeAvancuarDet1
