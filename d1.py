@@ -3,7 +3,7 @@ class d1:
     def __init__(self,_array):
         self.array = _array
         self.vleraMaksimale = self.shumaMaksimaleDC(0,len(self.array)-1)
-        print("Shuma maksimale qe eshte gjendur ne vargun",self.array," eshte : ",self.vleraMaksimale)
+        print("Shuma maksimale qe eshte gjendur ne vargun",self.array," eshte : ",self.vleraMaksimale," //{}".format(self.array))
         
     def shumaMaksimaleDC(self,_from,_to):
         if _from == _to:
